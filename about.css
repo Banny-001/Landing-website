@@ -1,0 +1,89 @@
+
+body{
+    font-family:  'PT Sans' sans-serif;
+    box-sizing: border-box;
+   
+}
+.main-container{
+    padding: 10px;
+    background-color:rgb(186, 172, 92);
+ 
+    
+    p{
+        padding: 20px;
+        align-items: center;
+    }
+    h3{
+        margin-left: 25%;
+       
+    }
+    h1{
+        margin-left: 5%;
+        display: flex;
+
+    }
+    ul{
+        color: green;
+        padding: none;
+      
+    }
+    li{
+        padding: 2px
+    }
+      
+}
+
+
+
+
+
+
+@media (min-width:600px){
+  .main-container{
+    display: flex;
+    flex-direction:column;
+     width:1200px ;
+     align-items: flex-start;
+     flex :grow;
+    
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    p{
+     width:100%;
+     height: px;
+     display: flex;
+     flex-direction:column ;
+     align-items: flex-end;
+     flex-basis: auto;
+
+    }
+
+  }
+
+
+    .services{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        gap:0;
+       
+    
+    }
+    .card{
+        display:flex;
+        flex-direction: row;
+       gap:0;
+    }
+   
+    .contact{
+      display: flex;
+      flex-direction: column; ;
+      margin-left: 10%;
+      align-items: center;
+     
+    }
+    
+   
+}
